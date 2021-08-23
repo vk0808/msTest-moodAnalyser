@@ -63,6 +63,24 @@ namespace UnitTestProject
             {
                 Assert.AreEqual("Mood should not be null", exception.Message);
             }
+        }
+
+        /// <summary>
+        /// for TC-3.2
+        /// </summary>
+        [TestMethod]
+        public void WhenGivenMoodEmpty_ShouldThrowException()
+        {
+            try
+            {
+                string message = "";
+                MoodAnalyser moodAnalyzer = new MoodAnalyser(message);
+                string mood = moodAnalyzer.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException exception)
+            {
+                Assert.AreEqual("Mood should not be empty", exception.Message);
+            }
 
         }
     }
