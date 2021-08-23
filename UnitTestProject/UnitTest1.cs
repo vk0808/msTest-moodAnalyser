@@ -83,5 +83,18 @@ namespace UnitTestProject
             }
 
         }
+
+        /// <summary>
+        /// for TC-4.1
+        /// </summary>
+        [TestMethod]
+        public void WhenGivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject()
+        {
+            string message = null;
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyserFactory.CreateMoodAnalyse("AnalyseMood.MoodAnalyser", "MoodAnalyser");
+            expected.Equals(obj);
+
+        }
     }
 }
