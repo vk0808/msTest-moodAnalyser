@@ -99,5 +99,16 @@ namespace UnitTestProject
             expected.Equals(obj);
 
         }
+
+        /// <summary>
+        /// for TC-5.1
+        /// </summary>
+        [TestMethod]
+        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject_UsingParameterizedConstructor()
+        {
+            object expected = new MoodAnalyser("HAPPY");
+            object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor("AnalyseMood.MoodAnalyser", "MoodAnalyser", "SAD");
+            expected.Equals(obj);
+        }
     }
 }
