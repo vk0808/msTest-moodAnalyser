@@ -9,6 +9,10 @@ namespace AnalyseMood
         // instance variable
         private string message;
 
+        // default constructor
+        public MoodAnalyser()
+        {
+        }
 
         // parameterised constructor
         public MoodAnalyser(string message)
