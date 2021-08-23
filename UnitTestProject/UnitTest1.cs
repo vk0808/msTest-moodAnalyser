@@ -88,11 +88,13 @@ namespace UnitTestProject
         /// for TC-4.1
         /// </summary>
         [TestMethod]
-        public void WhenGivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject()
+        [DataRow("AnalyseMood.MoodAnalyser")]
+        [DataRow("AnalyseMoo.MoodAnalyser")]
+        public void WhenGivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject(string className)
         {
             string message = null;
             object expected = new MoodAnalyser(message);
-            object obj = MoodAnalyserFactory.CreateMoodAnalyse("AnalyseMood.MoodAnalyser", "MoodAnalyser");
+            object obj = MoodAnalyserFactory.CreateMoodAnalyse(className, "MoodAnalyser");
             expected.Equals(obj);
 
         }
