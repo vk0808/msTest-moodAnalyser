@@ -101,15 +101,16 @@ namespace UnitTestProject
         }
 
         /// <summary>
-        /// for TC-5.1, 5.2
+        /// for TC-5.1, 5.2, 5.3
         /// </summary>
         [TestMethod]
-        [DataRow("AnalyseMood.MoodAnalyser")]
-        [DataRow("AnalyseMoo.MoodAnalyser")]
-        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject_UsingParameterizedConstructor(string className)
+        [DataRow("AnalyseMood.MoodAnalyser", "MoodAnalyser")]
+        [DataRow("AnalyseMoo.MoodAnalyser", "MoodAnalyser")]
+        [DataRow("AnalyseMood.MoodAnalyser", "MoodAnalyserr")]
+        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject_UsingParameterizedConstructor(string className, string ctorPara)
         {
             object expected = new MoodAnalyser("HAPPY");
-            object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor(className, "MoodAnalyser", "SAD");
+            object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor(className, ctorPara, "SAD");
             expected.Equals(obj);
         }
     }
