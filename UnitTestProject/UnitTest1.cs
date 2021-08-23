@@ -85,11 +85,12 @@ namespace UnitTestProject
         }
 
         /// <summary>
-        /// for TC-4.1
+        /// for TC-4.1, 4.2, 4.3
         /// </summary>
         [TestMethod]
         [DataRow("AnalyseMood.MoodAnalyser")]
         [DataRow("AnalyseMoo.MoodAnalyser")]
+        [DataRow("AnalyseMood.MoodAnalyse")]
         public void WhenGivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject(string className)
         {
             string message = null;
