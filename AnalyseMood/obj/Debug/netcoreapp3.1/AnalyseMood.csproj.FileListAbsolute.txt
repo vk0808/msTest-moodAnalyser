@@ -1,0 +1,13 @@
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.exe
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.deps.json
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.runtimeconfig.json
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.runtimeconfig.dev.json
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.dll
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\bin\Debug\netcoreapp3.1\AnalyseMood.pdb
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.csproj.AssemblyReference.cache
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.AssemblyInfoInputs.cache
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.AssemblyInfo.cs
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.csproj.CoreCompileInputs.cache
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.dll
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.pdb
+C:\Users\vk476\Desktop\Fellowship Program\Practice Problems\Day20Problems\AnalyseMood\AnalyseMood\obj\Debug\netcoreapp3.1\AnalyseMood.genruntimeconfig.cache
