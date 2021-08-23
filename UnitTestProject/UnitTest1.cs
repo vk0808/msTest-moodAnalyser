@@ -23,6 +23,7 @@ namespace UnitTestProject
 
         [TestMethod]
         [DataRow("I am in Happy Mood")]
+        [DataRow(null)]
         public void WhenGivenThrDataRow_ShouldReturnHappy(string message)
         {
             //Arrange
