@@ -22,11 +22,11 @@ namespace UnitTestProject
         }
 
         [TestMethod]
-        [DataRow("I am in Sad Mood")]
-        public void WhenGivenThrDataRow_ShouldReturnSad(string message)
+        [DataRow("I am in Happy Mood")]
+        public void WhenGivenThrDataRow_ShouldReturnHappy(string message)
         {
             //Arrange
-            string expected = "SAD";
+            string expected = "HAPPY";
             MoodAnalyser moodAnalyzer = new MoodAnalyser(message);
 
             //Act
