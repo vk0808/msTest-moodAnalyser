@@ -6,6 +6,9 @@ namespace UnitTestProject
     [TestClass]
     public class UnitTest1
     {
+        /// <summary>
+        /// for TC-1.1, 1.2
+        /// </summary>
         [TestMethod]
         public void WhenGivenMoodSad_ShouldReturnSad()
         {
@@ -21,6 +24,10 @@ namespace UnitTestProject
             Assert.AreEqual(expected, mood);
         }
 
+        /// <summary>
+        /// for TC-1.1(repeat), 1.2(repeat), 2.1
+        /// </summary>
+        /// <param name="message"></param>
         [TestMethod]
         [DataRow("I am in Happy Mood")]
         [DataRow(null)]
@@ -35,6 +42,28 @@ namespace UnitTestProject
 
             //Assert
             Assert.AreEqual(expected, mood);
+        }
+
+        /// <summary>
+        /// for TC-3.1
+        /// </summary>
+        [TestMethod]
+        public void WhenGivenMoodNull_ShouldThrowException()
+        {
+            try
+            {
+                //Arrange
+                string message = null;
+                MoodAnalyser moodAnalyzer = new MoodAnalyser(message);
+
+                //Act
+                string mood = moodAnalyzer.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException exception)
+            {
+                Assert.AreEqual("Mood should not be null", exception.Message);
+            }
+
         }
     }
 }
